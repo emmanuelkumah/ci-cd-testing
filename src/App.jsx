@@ -7,7 +7,8 @@ function App() {
 
   return (
     <>
-      <h2>Testing Continuous Integration</h2>
+      <h2>Testing Continuous Integration and Continous Deployment</h2>
+      <p>Using GitHub Actions and GitHub Pages</p>
     </>
   );
 }
