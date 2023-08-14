@@ -33,8 +33,7 @@ jobs:
           name: production-files
           path: ./dist
       - name: Deploy to GitHub Pages
-         id: deployment
-         uses: actions/deploy-pages@v2
-         with:
+        uses: peaceiris/actions-gh-pages@v3
+        with:
           github_token: ${{ secrets.CI_CD_TOKEN }}
           publish_dir: ./dist
