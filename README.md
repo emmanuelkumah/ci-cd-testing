@@ -1,10 +1,9 @@
-# React + Vite
+# Continuous Integration and Continuous Deployment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository is for a tutorial on how to implement continuous integration and continuous deployment in your React app.
 
-Currently, two official plugins are available:
+## Tools used
+- GitHub Actions was used for creating the workflow for the continuos integration
+- App was deployed on GitHub Pages
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# ci-cd-testing
-# ci-cd-testing
+
